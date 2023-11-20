@@ -3,7 +3,7 @@ package id.infinitelearning.KotlinSubmission.exercise1
 /**
 Latihan 1
 Lengkapi fungsi myProfile di bawah ini dengan membuat variabel dengan ketentuan dibawah ini:
-- Variable bertipe data string yang menyimpan nilai nama depan Anda.
+- Variable bertipe data string yang mqqenyimpan nilai nama depan Anda.
 - Variable bertipe data string yang menyimpan nilai nama belakang Anda.
 - Variable bertipe data number yang menyimpan nilai umur Anda.
 - Variable bertipe data boolean yang menyimpan nilai status Anda (single atau tidak)
@@ -44,11 +44,11 @@ fun groupDetail(groupId: String, groupMember: List<Any>, session: String): Any {
  */
 fun myTeam(): List<Any> {
     val daftarAnggota = listOf("Diah Nur Astanti", "Firyal Wishal Nabili", "Ahmad Rofiq", "Defri Salwan", "Deni Zailani")
-    val sayaDipanggil = daftarAnggota[2]
+    val sayaDipanggil = daftarAnggota[1]
 
     println("\nDaftar Anggota Grup: $daftarAnggota")
     println("Ini saya : $sayaDipanggil")
-    return listOf(sayaDipanggil)
+    return listOf(daftarAnggota)
 }
 
 
